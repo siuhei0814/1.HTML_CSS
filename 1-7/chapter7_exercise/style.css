@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.service-picture {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.service {
+  margin: 0 suto;
+  padding: 20px;
+}
+
+.main {
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.blog {
+  padding: 30px;
+  border-bottom: 1px solid #d1d1d1;
+};
+}
