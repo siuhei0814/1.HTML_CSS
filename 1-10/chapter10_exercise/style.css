@@ -31,14 +31,16 @@ header {
 
 .step {
   position: absolute;
+  z-index: 1;
   background-color: #ff9a4b;
+  color: white;
 }
 
 .image1,
 .image2,
 .image3 {
-  margin: 10px;
   height: 150px;
+  margin: 10px;
   background-size: cover;
 }
 
@@ -78,9 +80,8 @@ footer {
   .box2,
   .box3 {
     width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
-    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .box2,
@@ -91,7 +92,16 @@ footer {
   .image1,
   .image2,
   .image3 {
-    margin: 100px;
+    position: relative;
+    top: 10px;
     background-position: bottom;
+  }
+
+  .title {
+    margin: 25px auto 5px 10px;
+  }
+
+  .bunsyo {
+    margin: auto 10px;
   }
 }
